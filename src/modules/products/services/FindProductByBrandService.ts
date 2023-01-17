@@ -1,4 +1,3 @@
-
 import AppError from "../../../shared/errors/AppErrors";
 import IProductDTO from "../dtos/IProductDTO";
 import FindAllProductsService from "./FindAllProductsService";
@@ -16,11 +15,6 @@ export default class FindProductByBrandService {
       if (productsData[i].name.includes(brand)) {
         newProductsData.push(productsData[i]);
       }
-    }
-
-
-    if (!newProductsData) {
-      throw new AppError("Produtos dessa marca não encontrados");
     }
 
     return newProductsData;

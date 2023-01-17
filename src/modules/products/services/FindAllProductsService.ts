@@ -6,7 +6,6 @@ const URL = 'https://webscraper.io/test-sites/e-commerce/allinone/computers/lapt
 export default class FindAllProductsService {
   public async execute(): Promise<IProductDTO[]> {
 
-
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto(URL);
@@ -24,10 +23,6 @@ export default class FindAllProductsService {
 
     await browser.close();
 
-    if (!productsData) {
-      throw new AppError("Produtos não encontrados");
-    }
     return productsData;
-
   }
 }
