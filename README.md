@@ -9,8 +9,8 @@
 
 ## Rotas Disponíveis
 
-http://localhost:3000/products/
-http://localhost:3000/products/Lenovo {outras marcas também}
+### http://localhost:3000/products/
+### http://localhost:3000/products/Lenovo {outras marcas também}
 
 ## Documentação e Conteinerização em Desenvolvimento
 # web-scraping-api-challenge
