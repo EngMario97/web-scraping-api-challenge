@@ -13,4 +13,3 @@
 ### http://localhost:3000/products/Lenovo {outras marcas também}
 
 ## Documentação e Conteinerização em Desenvolvimento
-# web-scraping-api-challenge
